@@ -49,6 +49,15 @@ public class SE1428MathUtil {
         
         //git config --global user.email hieuthomnghiep@gmail.com
         //git config --global user.name hieuthomnghiep@gmail.com
+        
+        //git add * add het tru ignore
+        //git commit -m ""     m là message mình muốn nói
+        
+        //git branch -M main dong bộ từ local lên kho từ xa, cần thêm đường dẫn để chỉ ra kho------ vì đây là lần đầu
+        
+        //url:   git remote add origin git@github.com:studingHtml/SE1428-math-util.git
+        
+        
     }
     
 }
