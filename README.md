@@ -9,6 +9,6 @@ This repository contains a Java Project to simulate a well-known JDK class - the
 
 ### Connect me via:
 [Facebook](https://www.facebook.com/hieuthomnghiep)
-[Email](mail to:hieuthomnghiep@gmail.com)
+[Email](hieuthomnghiep@gmail.com)
 
 #### © 2020 by min.hieu | FPT University, HCMC
