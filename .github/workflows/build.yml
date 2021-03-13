@@ -1,4 +1,4 @@
-name: Practice CI with GitHub Actions using Ant and JUnit | © 2020 by ttson1001
+name: Practice CI with GitHub Actions using Ant and JUnit | © 2020 by hieuthomnghiep
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the main branch
@@ -45,7 +45,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-      - name: Build project with Ant
         run: ant -noinput -buildfile build.xml # Quá trình build sẽ cần đến file cấu hình build.xml, build-impl.xml
       
       - name: Distribute jar-war file # Gửi file .jar .war đi đâu, CD nhảy vào ...
